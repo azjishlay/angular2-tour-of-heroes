@@ -1,4 +1,4 @@
-import { Component， OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { Hero } from './hero';
 import { HeroDetailComponent } from './hero-detail.component';
@@ -88,4 +88,3 @@ export class AppComponent implements OnInit {
 
   onSelect(hero: Hero) { this.selectedHero = hero; }
 }
-
